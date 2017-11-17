@@ -1,0 +1,3 @@
+---
+ - debug: msg="{{ lookup('file', '/etc/foo.txt') }}"
+

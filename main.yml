@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  roles:
+     - { role: esp}
+  vars:
+   type: "{{ TYPE }}"
+   env: "{{ ENV }}"
+   core: "{{ CORE }}"
+   plugin: "{{ PLUGIN }}"
+   web: "{{ WEB }}"
+   adaptor: "{{ ADAPTOR }}"
+   client: "{{ CLIENT }}"
+   link: "{{ LINK }}"
+   file: "{{ FILE }}"
+   days: "{{ DAYS }}"

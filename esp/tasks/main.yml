@@ -1,0 +1,15 @@
+---
+- include: usage.yml
+  when:
+   - type is undefined
+   - env is undefined
+   - core is undefined
+   - plugin is undefined
+   - web is undefined
+   - adaptor is undefined
+   - client is undefined
+   - link is undefined
+   - file is undefined
+   - days is undefined
+
+
