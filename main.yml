@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   roles:
-     - { role: esp}
+     - { role: esp }
   vars:
    type: "{{ TYPE }}"
    env: "{{ ENV }}"
@@ -13,3 +13,4 @@
    link: "{{ LINK }}"
    file: "{{ FILE }}"
    days: "{{ DAYS }}"
+
