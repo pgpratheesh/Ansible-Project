@@ -116,4 +116,4 @@
   register: allsum
 
 - debug:
-    msg: "the sum value is {{ allsum.stdout }}"
+    msg: "the total parameter is {{ allsum.stdout }}"
