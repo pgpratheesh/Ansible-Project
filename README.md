@@ -1,5 +1,5 @@
 # Ansible-Project
 
-## Run the Ansible Playbook ##
+# Run the Ansible Playbook #
 
-  ansible-playbook main.yml -e "type=a ENV=b"
+  ansible-playbook main.yml -e "type=a env=b"
