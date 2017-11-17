@@ -1,3 +1,5 @@
 ---
- - debug: msg="{{ lookup('file', '/etc/foo.txt') }}"
+ - debug: msg="{{ lookup('file', '../vars/para.txt') }}"
+ - fail:
+    msg: "Playbook Completed. Please Check the Error Logs."
 
