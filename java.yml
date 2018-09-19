@@ -3,4 +3,4 @@
   become: true
   tasks:
     - name: Download java
-      get_url: url=http://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.5.21/linux/ppc64/ibm-java-ppc64-sdk-8.0-5.21.bin
+      get_url: url=http://public.dhe.ibm.com/ibmdl/export/pub/systems/cloud/runtimes/java/8.0.5.21/linux/ppc64/ibm-java-ppc64-sdk-8.0-5.21.bin dest=/opt
